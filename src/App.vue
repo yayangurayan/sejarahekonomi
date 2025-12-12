@@ -3,14 +3,7 @@ import { RouterView } from 'vue-router'
 </script>
 
 <template>
-  <RouterView />
+  <div class="antialiased text-gray-800">
+    <RouterView />
+  </div>
 </template>
-
-<style>
-/* Global resets handled by Tailwind, minimal overrides here */
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #f9f3e0; /* Fallback color matching tailwind config */
-}
-</style>
